@@ -16,6 +16,18 @@
                     <MetadataType>
                       <option name="name" value="ApexClass" />
                     </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="MaintenanceRequest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="ApexTrigger" />
+                      <option name="wildcard" value="false" />
+                    </MetadataType>
                   </set>
                 </option>
               </Manifest>
