@@ -65,7 +65,7 @@ public with sharing class MaintenanceRequestHelper {
             }
             listToDB.add(newCase);
         }
-        
+
         insert listToDB;
         for (Case iCase : listToDB) {
             for (Equipment_Maintenance_Item__c item : lEquipmentMaintenanceItems){
